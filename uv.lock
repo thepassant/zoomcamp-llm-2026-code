@@ -1907,6 +1907,18 @@ wheels = [
 ]
 
 [[package]]
+name = "sqlitesearch"
+version = "0.1.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "numpy" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/f8/dc/c119de50978764dfd5aa1cda5f8727655a18c6da3608a9ad4c7bf8206d96/sqlitesearch-0.1.0.tar.gz", hash = "sha256:ad50f1fa686f930b1de323b54cd8d6c7d17109298c9f7ca32393854bcf33d2e9", size = 261604, upload-time = "2026-06-11T14:08:52.742Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/bb/47/5300df5b9af328b2063439c7c7a746f223aff27dad20132c8828c998bd88/sqlitesearch-0.1.0-py3-none-any.whl", hash = "sha256:2b20763612360e4b9dd2d217a5ac34a9896f1c25d146f9cdf09aaa6bfa9f2d0b", size = 40267, upload-time = "2026-06-11T14:08:51.728Z" },
+]
+
+[[package]]
 name = "stack-data"
 version = "0.6.3"
 source = { registry = "https://pypi.org/simple" }
@@ -2096,6 +2108,7 @@ dependencies = [
     { name = "openai" },
     { name = "python-dotenv" },
     { name = "requests" },
+    { name = "sqlitesearch" },
 ]
 
 [package.metadata]
@@ -2105,4 +2118,5 @@ requires-dist = [
     { name = "openai", specifier = ">=2.41.1" },
     { name = "python-dotenv", specifier = ">=1.2.2" },
     { name = "requests", specifier = ">=2.34.2" },
+    { name = "sqlitesearch", specifier = ">=0.1.0" },
 ]
