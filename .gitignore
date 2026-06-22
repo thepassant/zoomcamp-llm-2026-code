@@ -4,4 +4,4 @@
 *.db
 *.db-shm
 *.db-wal
-/__pyache__
+/__pycache__
